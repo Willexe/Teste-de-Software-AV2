@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+</head>
+<body>
+    <main>
+        <h1>Tela de Cadastro</h1>
+        <label for="nome">Nome</label>
+        <input type="text" name="" id="nome">
+        <p id="alerta_nome"></p>
+
+        <label for="senha">Senha</label>
+         <input type="password" name="password" id="senha">
+         <p id="alerta_senha"></p>
+
+        <label for="cpf">CPF</label>
+        <input type="number" name="" id="cpf">
+        <p id="alerta_cpf"></p>
+
+        <label for="email">Email</label>
+        <input type="email" name="" re id="email">
+        <p id="alerta_email"></p>
+        
+        <label for="data">Data de nascimento</label>
+        <input type="date" name="" re id="data">
+        <p id="alerta_data"></p>
+
+        <button onclick="cadastrar()" id="cadastrar" class="qualquer">Cadastrar</button>
+       
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
